@@ -1,0 +1,16 @@
+$TTL 180
+@	IN	SOA	ns1	pengjb.nerc.edu.cn(
+	20200819;
+	3H;
+	15M
+	1W;
+	1D);
+;A recorder
+	IN 	NS	ns1;
+@	IN	A	10.191.142.129;
+ns1	IN	A	10.191.142.129;
+mssql1	IN	A	202.205.161.81;
+mssql2	IN	A	202.205.161.82;
+mssql3	IN	A	202.205.161.83;
+mssql4	IN	A	219.143.195.88;
+mssql5	IN	A	202.205.161.107;

@@ -1,0 +1,29 @@
+zone "dev.db" {
+  type master;
+  file "/etc/bind/zones/01.dev.db";
+};
+
+zone "dev.nosql" {
+  type master;
+  file "/etc/bind/zones/02.dev.nosql";
+};
+
+zone "test.com" {
+  type master;
+  file "/etc/bind/zones/03.test.com";
+};
+
+zone "dev.net" {
+  type master;
+  file "/etc/bind/zones/04.dev.net";
+};
+
+zone "share" {
+  type master;
+  file "/etc/bind/zones/05.share";
+};
+
+zone "ahrl.test.nercoa.com" {
+  type master;
+  file "/etc/bind/zones/06.ahrl.test.nercoa.com";
+};
