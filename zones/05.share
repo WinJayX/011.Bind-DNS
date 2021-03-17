@@ -9,4 +9,4 @@ $TTL 180
 	IN 	NS	ns1;
 @	IN	A	10.191.142.129;
 ns1	IN	A	10.191.142.129;
-software	IN	A	202.205.161.115;
+software	IN	A	202.205.161.89;

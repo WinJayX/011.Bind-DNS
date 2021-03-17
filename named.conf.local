@@ -1,3 +1,14 @@
+
+zone "prod.db" {
+  type master;
+  file "/etc/bind/zones/00.prod.db";
+};
+
+zone "prod.com" {
+  type master;
+  file "/etc/bind/zones/00.prod.com";
+};
+
 zone "dev.db" {
   type master;
   file "/etc/bind/zones/01.dev.db";
@@ -27,3 +38,10 @@ zone "ahrl.test.nercoa.com" {
   type master;
   file "/etc/bind/zones/06.ahrl.test.nercoa.com";
 };
+
+zone "dev.com" {
+  type master;
+  file "/etc/bind/zones/07.dev.com";
+};
+
+

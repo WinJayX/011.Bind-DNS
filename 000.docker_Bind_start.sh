@@ -22,14 +22,3 @@ docker container run -d \
 
 
 
-
-docker container run -d \
-  -p 5601:5601 \
-  -p 9200:9200 \
-  -p 5044:5044 \
-  --volume `pwd`/elk-data:/var/lib/elasticsearch \
-  --restart always \
-  --user root \
-  --hostname ELK \
-  --name ELK \
-  winjay/els-ik:780
